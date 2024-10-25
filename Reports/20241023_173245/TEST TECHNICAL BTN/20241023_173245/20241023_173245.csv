@@ -1,0 +1,260 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TEST TECHNICAL BTN,Chrome 130.0.0.0,,,23-10-2024 17:32:49,23-10-2024 17:37:15,4m - 25.527s,PASSED
+,,,,,,,
+"Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity",Chrome 130.0.0.0,,,23-10-2024 17:32:50,23-10-2024 17:33:25,34.721s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 17:32:51,23-10-2024 17:32:53,2.343s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,23-10-2024 17:32:53,23-10-2024 17:32:53,0.096s,PASSED
+"navigateToUrl(""https://practice.automationtesting.in/shop/"")",Chrome 130.0.0.0,,,23-10-2024 17:32:53,23-10-2024 17:32:55,2.423s,PASSED
+"click(findTestObject(""Object Repository/Page_Products  Automation Practice Site/a_HTML product type""))",Chrome 130.0.0.0,,,23-10-2024 17:32:55,23-10-2024 17:32:57,1.495s,PASSED
+"click(findTestObject(""Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)""))",Chrome 130.0.0.0,,,23-10-2024 17:32:57,23-10-2024 17:32:58,0.683s,PASSED
+"click(findTestObject(""Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)""))",Chrome 130.0.0.0,,,23-10-2024 17:32:58,23-10-2024 17:32:59,0.974s,PASSED
+"click(findTestObject(""Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)""))",Chrome 130.0.0.0,,,23-10-2024 17:32:59,23-10-2024 17:32:59,0.727s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:32:59,23-10-2024 17:33:01,2.061s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:33:01,23-10-2024 17:33:02,1.065s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0""))",Chrome 130.0.0.0,,,23-10-2024 17:33:02,23-10-2024 17:33:04,1.522s,PASSED
+"setText(findTestObject(""Page_Basket  Automation Practice Site/input__cart(HTML5 Form)""), Quantity)",Chrome 130.0.0.0,,,23-10-2024 17:33:04,23-10-2024 17:33:05,0.893s,PASSED
+"click(findTestObject(""Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart""))",Chrome 130.0.0.0,,,23-10-2024 17:33:05,23-10-2024 17:33:05,0.382s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:33:05,23-10-2024 17:33:07,2.016s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:33:07,23-10-2024 17:33:08,0.717s,PASSED
+"click(findTestObject(""Page_Basket  Automation Practice Site/a_Proceed to Checkout2""))",Chrome 130.0.0.0,,,23-10-2024 17:33:08,23-10-2024 17:33:10,1.962s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name""), First_name)",Chrome 130.0.0.0,,,23-10-2024 17:33:10,23-10-2024 17:33:12,1.538s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name""), Last_name)",Chrome 130.0.0.0,,,23-10-2024 17:33:12,23-10-2024 17:33:12,0.601s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company""), Company_name)",Chrome 130.0.0.0,,,23-10-2024 17:33:12,23-10-2024 17:33:13,0.653s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_email""), Email)",Chrome 130.0.0.0,,,23-10-2024 17:33:13,23-10-2024 17:33:13,0.654s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone""), Phone)",Chrome 130.0.0.0,,,23-10-2024 17:33:13,23-10-2024 17:33:14,0.620s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1""), Address1)",Chrome 130.0.0.0,,,23-10-2024 17:33:14,23-10-2024 17:33:15,0.612s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2""), Address2)",Chrome 130.0.0.0,,,23-10-2024 17:33:15,23-10-2024 17:33:15,0.600s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_city""), City)",Chrome 130.0.0.0,,,23-10-2024 17:33:15,23-10-2024 17:33:16,0.605s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode""), Postcode)",Chrome 130.0.0.0,,,23-10-2024 17:33:16,23-10-2024 17:33:16,0.593s,PASSED
+"scrollToPosition(0, 500)",Chrome 130.0.0.0,,,23-10-2024 17:33:16,23-10-2024 17:33:16,0.035s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:33:16,23-10-2024 17:33:18,2.015s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:33:18,23-10-2024 17:33:20,1.304s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c""))",Chrome 130.0.0.0,,,23-10-2024 17:33:20,23-10-2024 17:33:20,0.408s,PASSED
+delay(3),Chrome 130.0.0.0,,,23-10-2024 17:33:20,23-10-2024 17:33:23,3.013s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:33:23,23-10-2024 17:33:24,0.903s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 17:33:24,23-10-2024 17:33:25,0.388s,PASSED
+,,,,,,,
+"Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity",Chrome 130.0.0.0,,,23-10-2024 17:33:25,23-10-2024 17:33:59,33.956s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 17:33:25,23-10-2024 17:33:26,1.564s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,23-10-2024 17:33:26,23-10-2024 17:33:26,0.071s,PASSED
+"navigateToUrl(""https://practice.automationtesting.in/shop/"")",Chrome 130.0.0.0,,,23-10-2024 17:33:26,23-10-2024 17:33:29,2.160s,PASSED
+"click(findTestObject(""Object Repository/Page_Products  Automation Practice Site/a_HTML product type""))",Chrome 130.0.0.0,,,23-10-2024 17:33:29,23-10-2024 17:33:30,1.455s,PASSED
+"click(findTestObject(""Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)""))",Chrome 130.0.0.0,,,23-10-2024 17:33:30,23-10-2024 17:33:31,0.680s,PASSED
+"click(findTestObject(""Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)""))",Chrome 130.0.0.0,,,23-10-2024 17:33:31,23-10-2024 17:33:32,0.914s,PASSED
+"click(findTestObject(""Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)""))",Chrome 130.0.0.0,,,23-10-2024 17:33:32,23-10-2024 17:33:32,0.746s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:33:32,23-10-2024 17:33:34,2.017s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:33:34,23-10-2024 17:33:35,0.805s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0""))",Chrome 130.0.0.0,,,23-10-2024 17:33:35,23-10-2024 17:33:37,1.403s,PASSED
+"setText(findTestObject(""Page_Basket  Automation Practice Site/input__cart(HTML5 Form)""), Quantity)",Chrome 130.0.0.0,,,23-10-2024 17:33:37,23-10-2024 17:33:38,1.028s,PASSED
+"click(findTestObject(""Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart""))",Chrome 130.0.0.0,,,23-10-2024 17:33:38,23-10-2024 17:33:38,0.365s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:33:38,23-10-2024 17:33:40,2.005s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:33:40,23-10-2024 17:33:41,0.708s,PASSED
+"click(findTestObject(""Page_Basket  Automation Practice Site/a_Proceed to Checkout2""))",Chrome 130.0.0.0,,,23-10-2024 17:33:41,23-10-2024 17:33:44,3.293s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name""), First_name)",Chrome 130.0.0.0,,,23-10-2024 17:33:44,23-10-2024 17:33:46,1.743s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name""), Last_name)",Chrome 130.0.0.0,,,23-10-2024 17:33:46,23-10-2024 17:33:46,0.624s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company""), Company_name)",Chrome 130.0.0.0,,,23-10-2024 17:33:46,23-10-2024 17:33:47,0.660s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_email""), Email)",Chrome 130.0.0.0,,,23-10-2024 17:33:47,23-10-2024 17:33:48,0.579s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone""), Phone)",Chrome 130.0.0.0,,,23-10-2024 17:33:48,23-10-2024 17:33:48,0.618s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1""), Address1)",Chrome 130.0.0.0,,,23-10-2024 17:33:48,23-10-2024 17:33:49,0.649s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2""), Address2)",Chrome 130.0.0.0,,,23-10-2024 17:33:49,23-10-2024 17:33:49,0.602s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_city""), City)",Chrome 130.0.0.0,,,23-10-2024 17:33:49,23-10-2024 17:33:50,0.619s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode""), Postcode)",Chrome 130.0.0.0,,,23-10-2024 17:33:50,23-10-2024 17:33:51,0.605s,PASSED
+"scrollToPosition(0, 500)",Chrome 130.0.0.0,,,23-10-2024 17:33:51,23-10-2024 17:33:51,0.022s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:33:51,23-10-2024 17:33:53,2.015s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:33:53,23-10-2024 17:33:54,1.268s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c""))",Chrome 130.0.0.0,,,23-10-2024 17:33:54,23-10-2024 17:33:54,0.436s,PASSED
+delay(3),Chrome 130.0.0.0,,,23-10-2024 17:33:54,23-10-2024 17:33:57,3.017s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:33:57,23-10-2024 17:33:58,0.848s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 17:33:58,23-10-2024 17:33:59,0.384s,PASSED
+,,,,,,,
+"Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity",Chrome 130.0.0.0,,,23-10-2024 17:33:59,23-10-2024 17:34:32,32.924s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 17:33:59,23-10-2024 17:34:00,1.346s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,23-10-2024 17:34:00,23-10-2024 17:34:00,0.049s,PASSED
+"navigateToUrl(""https://practice.automationtesting.in/shop/"")",Chrome 130.0.0.0,,,23-10-2024 17:34:00,23-10-2024 17:34:03,2.763s,PASSED
+"click(findTestObject(""Object Repository/Page_Products  Automation Practice Site/a_HTML product type""))",Chrome 130.0.0.0,,,23-10-2024 17:34:03,23-10-2024 17:34:05,2.155s,PASSED
+"click(findTestObject(""Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)""))",Chrome 130.0.0.0,,,23-10-2024 17:34:05,23-10-2024 17:34:06,0.655s,PASSED
+"click(findTestObject(""Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)""))",Chrome 130.0.0.0,,,23-10-2024 17:34:06,23-10-2024 17:34:07,0.744s,PASSED
+"click(findTestObject(""Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)""))",Chrome 130.0.0.0,,,23-10-2024 17:34:07,23-10-2024 17:34:07,0.710s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:34:07,23-10-2024 17:34:09,2.011s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:34:09,23-10-2024 17:34:10,0.762s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0""))",Chrome 130.0.0.0,,,23-10-2024 17:34:10,23-10-2024 17:34:11,1.343s,PASSED
+"setText(findTestObject(""Page_Basket  Automation Practice Site/input__cart(HTML5 Form)""), Quantity)",Chrome 130.0.0.0,,,23-10-2024 17:34:11,23-10-2024 17:34:12,0.957s,PASSED
+"click(findTestObject(""Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart""))",Chrome 130.0.0.0,,,23-10-2024 17:34:12,23-10-2024 17:34:13,0.387s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:34:13,23-10-2024 17:34:15,2.010s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:34:15,23-10-2024 17:34:16,0.701s,PASSED
+"click(findTestObject(""Page_Basket  Automation Practice Site/a_Proceed to Checkout2""))",Chrome 130.0.0.0,,,23-10-2024 17:34:16,23-10-2024 17:34:18,2.510s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name""), First_name)",Chrome 130.0.0.0,,,23-10-2024 17:34:18,23-10-2024 17:34:19,1.040s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name""), Last_name)",Chrome 130.0.0.0,,,23-10-2024 17:34:19,23-10-2024 17:34:20,0.572s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company""), Company_name)",Chrome 130.0.0.0,,,23-10-2024 17:34:20,23-10-2024 17:34:20,0.608s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_email""), Email)",Chrome 130.0.0.0,,,23-10-2024 17:34:20,23-10-2024 17:34:21,0.584s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone""), Phone)",Chrome 130.0.0.0,,,23-10-2024 17:34:21,23-10-2024 17:34:21,0.582s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1""), Address1)",Chrome 130.0.0.0,,,23-10-2024 17:34:21,23-10-2024 17:34:22,0.636s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2""), Address2)",Chrome 130.0.0.0,,,23-10-2024 17:34:22,23-10-2024 17:34:23,0.616s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_city""), City)",Chrome 130.0.0.0,,,23-10-2024 17:34:23,23-10-2024 17:34:23,0.600s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode""), Postcode)",Chrome 130.0.0.0,,,23-10-2024 17:34:23,23-10-2024 17:34:24,0.609s,PASSED
+"scrollToPosition(0, 500)",Chrome 130.0.0.0,,,23-10-2024 17:34:24,23-10-2024 17:34:24,0.022s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:34:24,23-10-2024 17:34:26,2.018s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:34:26,23-10-2024 17:34:27,1.265s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c""))",Chrome 130.0.0.0,,,23-10-2024 17:34:27,23-10-2024 17:34:28,0.384s,PASSED
+delay(3),Chrome 130.0.0.0,,,23-10-2024 17:34:28,23-10-2024 17:34:31,3.017s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:34:31,23-10-2024 17:34:31,0.869s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 17:34:31,23-10-2024 17:34:32,0.362s,PASSED
+,,,,,,,
+Test Cases/TC_003 and TC_005 Case positif fillter and add coupon,Chrome 130.0.0.0,,,23-10-2024 17:34:32,23-10-2024 17:35:10,38.183s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 17:34:32,23-10-2024 17:34:33,0.978s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,23-10-2024 17:34:33,23-10-2024 17:34:33,0.052s,PASSED
+"navigateToUrl(""https://practice.automationtesting.in/shop/"")",Chrome 130.0.0.0,,,23-10-2024 17:34:33,23-10-2024 17:34:36,2.440s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:34:36,23-10-2024 17:34:38,2.011s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:34:38,23-10-2024 17:34:39,1.206s,PASSED
+"dragAndDropToObject(findTestObject(""Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover""), findTestObject(""Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover""), STOP_ON_FAILURE)",Chrome 130.0.0.0,,,23-10-2024 17:34:39,23-10-2024 17:34:41,1.571s,PASSED
+"click(findTestObject(""Object Repository/Page_Products  Automation Practice Site/button_Filter""))",Chrome 130.0.0.0,,,23-10-2024 17:34:41,23-10-2024 17:34:42,1.553s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:34:42,23-10-2024 17:34:44,2.010s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:34:44,23-10-2024 17:34:45,0.723s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/a_Add to basket""))",Chrome 130.0.0.0,,,23-10-2024 17:34:45,23-10-2024 17:34:45,0.317s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:34:45,23-10-2024 17:34:47,2.019s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:34:47,23-10-2024 17:34:48,0.762s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0""))",Chrome 130.0.0.0,,,23-10-2024 17:34:48,23-10-2024 17:34:50,1.779s,PASSED
+"click(findTestObject(""Page_Basket  Automation Practice Site/input_Coupon_coupon_code""))",Chrome 130.0.0.0,,,23-10-2024 17:34:50,23-10-2024 17:34:50,0.644s,PASSED
+"setText(findTestObject(""Page_Basket  Automation Practice Site/input_Coupon_coupon_code""), Coupon)",Chrome 130.0.0.0,,,23-10-2024 17:34:50,23-10-2024 17:34:51,0.592s,PASSED
+"click(findTestObject(""Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon""))",Chrome 130.0.0.0,,,23-10-2024 17:34:51,23-10-2024 17:34:51,0.339s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:34:51,23-10-2024 17:34:53,2.017s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:34:53,23-10-2024 17:34:54,0.664s,PASSED
+"click(findTestObject(""Page_Basket  Automation Practice Site/a_Proceed to Checkout""))",Chrome 130.0.0.0,,,23-10-2024 17:34:54,23-10-2024 17:34:56,1.748s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_first_name""), First_name)",Chrome 130.0.0.0,,,23-10-2024 17:34:56,23-10-2024 17:34:57,1.360s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_last_name""), Last_name)",Chrome 130.0.0.0,,,23-10-2024 17:34:57,23-10-2024 17:34:58,0.622s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input_Company Name_billing_company""), Company_name)",Chrome 130.0.0.0,,,23-10-2024 17:34:58,23-10-2024 17:34:58,0.608s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_email""), Email)",Chrome 130.0.0.0,,,23-10-2024 17:34:58,23-10-2024 17:34:59,0.575s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_phone""), Phone)",Chrome 130.0.0.0,,,23-10-2024 17:34:59,23-10-2024 17:34:59,0.618s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_address_1""), Address1)",Chrome 130.0.0.0,,,23-10-2024 17:34:59,23-10-2024 17:35:00,0.602s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_address_2""), Address2)",Chrome 130.0.0.0,,,23-10-2024 17:35:00,23-10-2024 17:35:01,0.623s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_city""), City)",Chrome 130.0.0.0,,,23-10-2024 17:35:01,23-10-2024 17:35:01,0.582s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_postcode""), Postcode)",Chrome 130.0.0.0,,,23-10-2024 17:35:01,23-10-2024 17:35:02,0.594s,PASSED
+"scrollToPosition(0, 500)",Chrome 130.0.0.0,,,23-10-2024 17:35:02,23-10-2024 17:35:02,0.019s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:35:02,23-10-2024 17:35:04,2.011s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:35:04,23-10-2024 17:35:05,1.227s,PASSED
+"click(findTestObject(""Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2""))",Chrome 130.0.0.0,,,23-10-2024 17:35:05,23-10-2024 17:35:06,0.355s,PASSED
+delay(3),Chrome 130.0.0.0,,,23-10-2024 17:35:06,23-10-2024 17:35:09,3.010s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:35:09,23-10-2024 17:35:10,1.196s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 17:35:10,23-10-2024 17:35:10,0.279s,PASSED
+,,,,,,,
+Test Cases/TC_003 and TC_005 Case positif fillter and add coupon,Chrome 130.0.0.0,,,23-10-2024 17:35:10,23-10-2024 17:35:49,38.520s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 17:35:10,23-10-2024 17:35:11,0.967s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,23-10-2024 17:35:11,23-10-2024 17:35:11,0.106s,PASSED
+"navigateToUrl(""https://practice.automationtesting.in/shop/"")",Chrome 130.0.0.0,,,23-10-2024 17:35:11,23-10-2024 17:35:14,3.061s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:35:14,23-10-2024 17:35:16,2.008s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:35:16,23-10-2024 17:35:17,1.250s,PASSED
+"dragAndDropToObject(findTestObject(""Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover""), findTestObject(""Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover""), STOP_ON_FAILURE)",Chrome 130.0.0.0,,,23-10-2024 17:35:17,23-10-2024 17:35:19,1.447s,PASSED
+"click(findTestObject(""Object Repository/Page_Products  Automation Practice Site/button_Filter""))",Chrome 130.0.0.0,,,23-10-2024 17:35:19,23-10-2024 17:35:20,1.464s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:35:20,23-10-2024 17:35:22,2.012s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:35:22,23-10-2024 17:35:23,0.688s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/a_Add to basket""))",Chrome 130.0.0.0,,,23-10-2024 17:35:23,23-10-2024 17:35:23,0.308s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:35:23,23-10-2024 17:35:25,2.016s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:35:25,23-10-2024 17:35:26,0.733s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0""))",Chrome 130.0.0.0,,,23-10-2024 17:35:26,23-10-2024 17:35:28,1.759s,PASSED
+"click(findTestObject(""Page_Basket  Automation Practice Site/input_Coupon_coupon_code""))",Chrome 130.0.0.0,,,23-10-2024 17:35:28,23-10-2024 17:35:28,0.610s,PASSED
+"setText(findTestObject(""Page_Basket  Automation Practice Site/input_Coupon_coupon_code""), Coupon)",Chrome 130.0.0.0,,,23-10-2024 17:35:28,23-10-2024 17:35:29,0.575s,PASSED
+"click(findTestObject(""Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon""))",Chrome 130.0.0.0,,,23-10-2024 17:35:29,23-10-2024 17:35:29,0.313s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:35:29,23-10-2024 17:35:31,2.012s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:35:31,23-10-2024 17:35:32,0.678s,PASSED
+"click(findTestObject(""Page_Basket  Automation Practice Site/a_Proceed to Checkout""))",Chrome 130.0.0.0,,,23-10-2024 17:35:32,23-10-2024 17:35:34,1.935s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_first_name""), First_name)",Chrome 130.0.0.0,,,23-10-2024 17:35:34,23-10-2024 17:35:35,1.471s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_last_name""), Last_name)",Chrome 130.0.0.0,,,23-10-2024 17:35:35,23-10-2024 17:35:36,0.613s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input_Company Name_billing_company""), Company_name)",Chrome 130.0.0.0,,,23-10-2024 17:35:36,23-10-2024 17:35:37,0.617s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_email""), Email)",Chrome 130.0.0.0,,,23-10-2024 17:35:37,23-10-2024 17:35:37,0.662s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_phone""), Phone)",Chrome 130.0.0.0,,,23-10-2024 17:35:37,23-10-2024 17:35:38,0.618s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_address_1""), Address1)",Chrome 130.0.0.0,,,23-10-2024 17:35:38,23-10-2024 17:35:39,0.655s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_address_2""), Address2)",Chrome 130.0.0.0,,,23-10-2024 17:35:39,23-10-2024 17:35:39,0.619s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_city""), City)",Chrome 130.0.0.0,,,23-10-2024 17:35:39,23-10-2024 17:35:40,0.616s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_postcode""), Postcode)",Chrome 130.0.0.0,,,23-10-2024 17:35:40,23-10-2024 17:35:40,0.623s,PASSED
+"scrollToPosition(0, 500)",Chrome 130.0.0.0,,,23-10-2024 17:35:40,23-10-2024 17:35:40,0.014s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:35:40,23-10-2024 17:35:42,2.014s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:35:42,23-10-2024 17:35:44,1.229s,PASSED
+"click(findTestObject(""Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2""))",Chrome 130.0.0.0,,,23-10-2024 17:35:44,23-10-2024 17:35:44,0.383s,PASSED
+delay(3),Chrome 130.0.0.0,,,23-10-2024 17:35:44,23-10-2024 17:35:47,3.015s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:35:47,23-10-2024 17:35:48,1.131s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 17:35:48,23-10-2024 17:35:49,0.266s,PASSED
+,,,,,,,
+Test Cases/TC_003 and TC_005 Case positif fillter and add coupon,Chrome 130.0.0.0,,,23-10-2024 17:35:49,23-10-2024 17:36:26,37.484s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 17:35:49,23-10-2024 17:35:50,1.010s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,23-10-2024 17:35:50,23-10-2024 17:35:50,0.062s,PASSED
+"navigateToUrl(""https://practice.automationtesting.in/shop/"")",Chrome 130.0.0.0,,,23-10-2024 17:35:50,23-10-2024 17:35:52,2.709s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:35:52,23-10-2024 17:35:54,2.009s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:35:54,23-10-2024 17:35:56,1.289s,PASSED
+"dragAndDropToObject(findTestObject(""Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover""), findTestObject(""Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover""), STOP_ON_FAILURE)",Chrome 130.0.0.0,,,23-10-2024 17:35:56,23-10-2024 17:35:57,1.495s,PASSED
+"click(findTestObject(""Object Repository/Page_Products  Automation Practice Site/button_Filter""))",Chrome 130.0.0.0,,,23-10-2024 17:35:57,23-10-2024 17:35:58,1.212s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:35:58,23-10-2024 17:36:00,2.008s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:36:00,23-10-2024 17:36:01,0.802s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/a_Add to basket""))",Chrome 130.0.0.0,,,23-10-2024 17:36:01,23-10-2024 17:36:01,0.291s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:36:01,23-10-2024 17:36:03,2.014s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:36:03,23-10-2024 17:36:04,0.672s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0""))",Chrome 130.0.0.0,,,23-10-2024 17:36:04,23-10-2024 17:36:05,1.337s,PASSED
+"click(findTestObject(""Page_Basket  Automation Practice Site/input_Coupon_coupon_code""))",Chrome 130.0.0.0,,,23-10-2024 17:36:05,23-10-2024 17:36:06,0.661s,PASSED
+"setText(findTestObject(""Page_Basket  Automation Practice Site/input_Coupon_coupon_code""), Coupon)",Chrome 130.0.0.0,,,23-10-2024 17:36:06,23-10-2024 17:36:07,0.615s,PASSED
+"click(findTestObject(""Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon""))",Chrome 130.0.0.0,,,23-10-2024 17:36:07,23-10-2024 17:36:07,0.324s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:36:07,23-10-2024 17:36:09,2.011s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:36:09,23-10-2024 17:36:10,0.666s,PASSED
+"click(findTestObject(""Page_Basket  Automation Practice Site/a_Proceed to Checkout""))",Chrome 130.0.0.0,,,23-10-2024 17:36:10,23-10-2024 17:36:12,2.505s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_first_name""), First_name)",Chrome 130.0.0.0,,,23-10-2024 17:36:12,23-10-2024 17:36:13,0.830s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_last_name""), Last_name)",Chrome 130.0.0.0,,,23-10-2024 17:36:13,23-10-2024 17:36:14,0.620s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input_Company Name_billing_company""), Company_name)",Chrome 130.0.0.0,,,23-10-2024 17:36:14,23-10-2024 17:36:14,0.607s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_email""), Email)",Chrome 130.0.0.0,,,23-10-2024 17:36:14,23-10-2024 17:36:15,0.629s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_phone""), Phone)",Chrome 130.0.0.0,,,23-10-2024 17:36:15,23-10-2024 17:36:16,0.618s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_address_1""), Address1)",Chrome 130.0.0.0,,,23-10-2024 17:36:16,23-10-2024 17:36:16,0.587s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_address_2""), Address2)",Chrome 130.0.0.0,,,23-10-2024 17:36:16,23-10-2024 17:36:17,0.601s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_city""), City)",Chrome 130.0.0.0,,,23-10-2024 17:36:17,23-10-2024 17:36:17,0.566s,PASSED
+"setText(findTestObject(""Page_Checkout  Automation Practice Site/input__billing_postcode""), Postcode)",Chrome 130.0.0.0,,,23-10-2024 17:36:17,23-10-2024 17:36:18,0.578s,PASSED
+"scrollToPosition(0, 500)",Chrome 130.0.0.0,,,23-10-2024 17:36:18,23-10-2024 17:36:18,0.015s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:36:18,23-10-2024 17:36:20,2.004s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:36:20,23-10-2024 17:36:21,1.240s,PASSED
+"click(findTestObject(""Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2""))",Chrome 130.0.0.0,,,23-10-2024 17:36:21,23-10-2024 17:36:22,0.362s,PASSED
+delay(3),Chrome 130.0.0.0,,,23-10-2024 17:36:22,23-10-2024 17:36:25,3.016s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:36:25,23-10-2024 17:36:26,1.206s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 17:36:26,23-10-2024 17:36:26,0.268s,PASSED
+,,,,,,,
+Test Cases/TC_006 Case Negative fail add coupon,Chrome 130.0.0.0,,,23-10-2024 17:36:26,23-10-2024 17:36:43,16.633s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 17:36:26,23-10-2024 17:36:27,1.112s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,23-10-2024 17:36:27,23-10-2024 17:36:27,0.083s,PASSED
+"navigateToUrl(""https://practice.automationtesting.in/shop/"")",Chrome 130.0.0.0,,,23-10-2024 17:36:27,23-10-2024 17:36:30,2.348s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)""))",Chrome 130.0.0.0,,,23-10-2024 17:36:30,23-10-2024 17:36:30,0.570s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:36:30,23-10-2024 17:36:32,2.011s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:36:32,23-10-2024 17:36:33,1.212s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0""))",Chrome 130.0.0.0,,,23-10-2024 17:36:33,23-10-2024 17:36:35,1.480s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:36:35,23-10-2024 17:36:37,2.023s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:36:37,23-10-2024 17:36:38,0.764s,PASSED
+"setText(findTestObject(""Page_Basket  Automation Practice Site/input_Coupon_coupon_code""), Coupon)",Chrome 130.0.0.0,,,23-10-2024 17:36:38,23-10-2024 17:36:38,0.613s,PASSED
+"click(findTestObject(""Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon""))",Chrome 130.0.0.0,,,23-10-2024 17:36:38,23-10-2024 17:36:39,0.382s,PASSED
+delay(3),Chrome 130.0.0.0,,,23-10-2024 17:36:39,23-10-2024 17:36:42,3.009s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:36:42,23-10-2024 17:36:42,0.648s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 17:36:42,23-10-2024 17:36:43,0.254s,PASSED
+,,,,,,,
+Test Cases/TC_006 Case Negative fail add coupon,Chrome 130.0.0.0,,,23-10-2024 17:36:43,23-10-2024 17:36:59,16.197s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 17:36:43,23-10-2024 17:36:44,0.867s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,23-10-2024 17:36:44,23-10-2024 17:36:44,0.127s,PASSED
+"navigateToUrl(""https://practice.automationtesting.in/shop/"")",Chrome 130.0.0.0,,,23-10-2024 17:36:44,23-10-2024 17:36:46,2.457s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)""))",Chrome 130.0.0.0,,,23-10-2024 17:36:46,23-10-2024 17:36:47,0.638s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:36:47,23-10-2024 17:36:49,2.008s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:36:49,23-10-2024 17:36:50,1.168s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0""))",Chrome 130.0.0.0,,,23-10-2024 17:36:50,23-10-2024 17:36:51,1.241s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:36:51,23-10-2024 17:36:53,2.016s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:36:53,23-10-2024 17:36:54,0.711s,PASSED
+"setText(findTestObject(""Page_Basket  Automation Practice Site/input_Coupon_coupon_code""), Coupon)",Chrome 130.0.0.0,,,23-10-2024 17:36:54,23-10-2024 17:36:55,0.657s,PASSED
+"click(findTestObject(""Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon""))",Chrome 130.0.0.0,,,23-10-2024 17:36:55,23-10-2024 17:36:55,0.318s,PASSED
+delay(3),Chrome 130.0.0.0,,,23-10-2024 17:36:55,23-10-2024 17:36:58,3.009s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:36:58,23-10-2024 17:36:59,0.713s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 17:36:59,23-10-2024 17:36:59,0.252s,PASSED
+,,,,,,,
+Test Cases/TC_006 Case Negative fail add coupon,Chrome 130.0.0.0,,,23-10-2024 17:36:59,23-10-2024 17:37:15,16.008s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 17:36:59,23-10-2024 17:37:00,0.956s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,23-10-2024 17:37:00,23-10-2024 17:37:00,0.079s,PASSED
+"navigateToUrl(""https://practice.automationtesting.in/shop/"")",Chrome 130.0.0.0,,,23-10-2024 17:37:00,23-10-2024 17:37:02,2.262s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)""))",Chrome 130.0.0.0,,,23-10-2024 17:37:02,23-10-2024 17:37:03,0.671s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:37:03,23-10-2024 17:37:05,2.007s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:37:05,23-10-2024 17:37:06,1.249s,PASSED
+"click(findTestObject(""Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0""))",Chrome 130.0.0.0,,,23-10-2024 17:37:06,23-10-2024 17:37:07,1.215s,PASSED
+delay(2),Chrome 130.0.0.0,,,23-10-2024 17:37:07,23-10-2024 17:37:09,2.015s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:37:09,23-10-2024 17:37:10,0.715s,PASSED
+"setText(findTestObject(""Page_Basket  Automation Practice Site/input_Coupon_coupon_code""), Coupon)",Chrome 130.0.0.0,,,23-10-2024 17:37:10,23-10-2024 17:37:11,0.606s,PASSED
+"click(findTestObject(""Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon""))",Chrome 130.0.0.0,,,23-10-2024 17:37:11,23-10-2024 17:37:11,0.327s,PASSED
+delay(3),Chrome 130.0.0.0,,,23-10-2024 17:37:11,23-10-2024 17:37:14,3.014s,PASSED
+takeFullPageScreenshot(),Chrome 130.0.0.0,,,23-10-2024 17:37:14,23-10-2024 17:37:15,0.659s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,23-10-2024 17:37:15,23-10-2024 17:37:15,0.220s,PASSED

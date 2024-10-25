@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST TECHNICAL BTN" time="265.527" tests="9" failures="0" errors="0">
+   <testsuite name="TEST TECHNICAL BTN" tests="9" failures="0" errors="0" time="265.527" skipped="0" timestamp="23-10-2024T17:32:49" hostname="ASUS VIVOBOOK - DESKTOP-MMTM3NU" id="Test Suites/TEST TECHNICAL BTN">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245"/>
+         <property name="logFiles" value="C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679581934.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679587787.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679599001.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679603734.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679614901.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679620505.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679633247.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679637971.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679649849.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679655306.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679666416.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679671076.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679678259.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679684606.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679687669.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679693801.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679704428.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679709025.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679716666.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679722840.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679725845.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679731850.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679742993.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679747628.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679754853.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679760851.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679763959.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679769581.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679780414.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679785041.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679792757.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679797475.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679802246.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679809264.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679813685.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679818388.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679825352.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679829819.png, C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679834487.png"/>
+         <property name="hostName" value="ASUS VIVOBOOK - DESKTOP-MMTM3NU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.87"/>
+         <property name="sessionId" value="a34aef678de2f90d4a0bd019be0b4358"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" time="34.721" classname="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:32:50 - [TEST_CASE][PASSED] - Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity: Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity
+
+23-10-2024T17:32:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:32:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:32:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:32:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:32:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:32:53 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:32:53 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:32:55 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/a_HTML product type")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:32:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:32:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:32:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:32:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:33:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:33:01 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:33:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:33:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679581934.png]]
+
+23-10-2024T17:33:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:33:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input__cart(HTML5 Form)"), Quantity): Text '4' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:33:05 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:33:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:33:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:33:07 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:33:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:33:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679587787.png]]
+
+23-10-2024T17:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout2")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:33:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Felisia2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:33:12 - [MESSAGE][PASSED] - Text 'Felisia2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:33:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Gremory2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:33:12 - [MESSAGE][PASSED] - Text 'Gremory2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:33:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Kingdome1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:33:13 - [MESSAGE][PASSED] - Text 'Kingdome1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:33:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'kingrod@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:33:13 - [MESSAGE][PASSED] - Text 'kingrod@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:33:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645641' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:33:14 - [MESSAGE][PASSED] - Text '084445645641' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:33:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'ghostr11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:33:15 - [MESSAGE][PASSED] - Text 'ghostr11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:33:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'ghosttr22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:33:15 - [MESSAGE][PASSED] - Text 'ghosttr22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:33:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Jakarta' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:33:16 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:33:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '1112224445' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:33:16 - [MESSAGE][PASSED] - Text '1112224445' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:33:16 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:33:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:33:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:33:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:33:18 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:33:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:33:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679599001.png]]
+
+23-10-2024T17:33:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c")): Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' is clicked on
+
+23-10-2024T17:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' is clicked on
+
+23-10-2024T17:33:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:33:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:33:23 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:33:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:33:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679603734.png]]
+
+23-10-2024T17:33:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:33:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" time="33.956" classname="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:33:25 - [TEST_CASE][PASSED] - Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity: Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity
+
+23-10-2024T17:33:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:33:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:33:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:33:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:33:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:33:26 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:33:26 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:33:29 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/a_HTML product type")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:33:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:33:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:33:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:33:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:33:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:33:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:33:34 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:33:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:33:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679614901.png]]
+
+23-10-2024T17:33:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:33:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input__cart(HTML5 Form)"), Quantity): Text '5' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:33:38 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:33:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:33:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:33:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:33:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:33:40 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:33:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:33:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679620505.png]]
+
+23-10-2024T17:33:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout2")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:33:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:33:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Tressif2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:33:46 - [MESSAGE][PASSED] - Text 'Tressif2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:33:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Tressif2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:33:46 - [MESSAGE][PASSED] - Text 'Tressif2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:33:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Hemlok1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:33:47 - [MESSAGE][PASSED] - Text 'Hemlok1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:33:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'herman@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:33:48 - [MESSAGE][PASSED] - Text 'herman@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:33:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645642' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:33:48 - [MESSAGE][PASSED] - Text '084445645642' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:33:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'hemmrll1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:33:49 - [MESSAGE][PASSED] - Text 'hemmrll1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:33:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'hemmrll2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:33:49 - [MESSAGE][PASSED] - Text 'hemmrll2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:33:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Bekasi' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:33:50 - [MESSAGE][PASSED] - Text 'Bekasi' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:33:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '2244455555' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:33:51 - [MESSAGE][PASSED] - Text '2244455555' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:33:51 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:33:51 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:33:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:33:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:33:53 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:33:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:33:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679633247.png]]
+
+23-10-2024T17:33:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c")): Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' is clicked on
+
+23-10-2024T17:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' is clicked on
+
+23-10-2024T17:33:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:33:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:33:57 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:33:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:33:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679637971.png]]
+
+23-10-2024T17:33:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:33:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" time="32.924" classname="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:33:59 - [TEST_CASE][PASSED] - Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity: Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity
+
+23-10-2024T17:33:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:33:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:33:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:34:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:34:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:34:00 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:34:00 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:34:03 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:34:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/a_HTML product type")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:34:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:34:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:34:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:34:09 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:34:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:34:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679649849.png]]
+
+23-10-2024T17:34:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:34:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input__cart(HTML5 Form)"), Quantity): Text '3' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:34:12 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:34:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:34:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:34:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:34:15 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:34:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:34:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679655306.png]]
+
+23-10-2024T17:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout2")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:34:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Mother2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:34:19 - [MESSAGE][PASSED] - Text 'Mother2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:34:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Rass2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:34:20 - [MESSAGE][PASSED] - Text 'Rass2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Crassk1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:34:20 - [MESSAGE][PASSED] - Text 'Crassk1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'crassww@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:34:21 - [MESSAGE][PASSED] - Text 'crassww@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:34:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645643' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:34:21 - [MESSAGE][PASSED] - Text '084445645643' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:34:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'craass11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:34:22 - [MESSAGE][PASSED] - Text 'craass11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:34:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'craass22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:34:23 - [MESSAGE][PASSED] - Text 'craass22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Bojong' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:34:23 - [MESSAGE][PASSED] - Text 'Bojong' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '4947777335' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:34:24 - [MESSAGE][PASSED] - Text '4947777335' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:34:24 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:34:24 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:34:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:34:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:34:26 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:34:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:34:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679666416.png]]
+
+23-10-2024T17:34:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c")): Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' is clicked on
+
+23-10-2024T17:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' is clicked on
+
+23-10-2024T17:34:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:34:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:34:31 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:34:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:34:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679671076.png]]
+
+23-10-2024T17:34:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:34:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" time="38.183" classname="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:34:32 - [TEST_CASE][PASSED] - Test Cases/TC_003 and TC_005 Case positif fillter and add coupon: Test Cases/TC_003 and TC_005 Case positif fillter and add coupon
+
+23-10-2024T17:34:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:34:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:34:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:34:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:34:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:34:33 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:34:33 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:34:36 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:34:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:34:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:34:38 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:34:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:34:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679678259.png]]
+
+23-10-2024T17:34:39 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover"), findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover"), STOP_ON_FAILURE): Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:34:41 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/button_Filter")): Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:34:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:34:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:34:44 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:34:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:34:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679684606.png]]
+
+23-10-2024T17:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:34:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:34:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:34:47 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:34:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:34:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679687669.png]]
+
+23-10-2024T17:34:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:34:51 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:34:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:34:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:34:53 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:34:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:34:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679693801.png]]
+
+23-10-2024T17:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:34:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Felisia2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:34:57 - [MESSAGE][PASSED] - Text 'Felisia2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:34:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Gremory2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:34:58 - [MESSAGE][PASSED] - Text 'Gremory2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:34:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Kingdome1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:34:58 - [MESSAGE][PASSED] - Text 'Kingdome1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:34:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'kingrod@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:34:59 - [MESSAGE][PASSED] - Text 'kingrod@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:34:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645641' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:34:59 - [MESSAGE][PASSED] - Text '084445645641' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:34:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'ghostr11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:35:00 - [MESSAGE][PASSED] - Text 'ghostr11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:35:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'ghosttr22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:35:01 - [MESSAGE][PASSED] - Text 'ghosttr22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:35:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Jakarta' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:35:01 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:35:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '1112224445' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:35:02 - [MESSAGE][PASSED] - Text '1112224445' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:35:02 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:35:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:35:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:35:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:35:04 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:35:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:35:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679704428.png]]
+
+23-10-2024T17:35:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2")): Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:35:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:35:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:35:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:35:09 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:35:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:35:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679709025.png]]
+
+23-10-2024T17:35:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:35:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" time="38.52" classname="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:35:10 - [TEST_CASE][PASSED] - Test Cases/TC_003 and TC_005 Case positif fillter and add coupon: Test Cases/TC_003 and TC_005 Case positif fillter and add coupon
+
+23-10-2024T17:35:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:35:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:35:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:35:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:35:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:35:11 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:35:11 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:35:14 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:35:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:35:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:35:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:35:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:35:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679716666.png]]
+
+23-10-2024T17:35:17 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover"), findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover"), STOP_ON_FAILURE): Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:35:19 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/button_Filter")): Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:35:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:35:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:35:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:35:22 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:35:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:35:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679722840.png]]
+
+23-10-2024T17:35:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:35:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:35:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:35:25 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:35:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:35:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679725845.png]]
+
+23-10-2024T17:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:35:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:35:29 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:35:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:35:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:35:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:35:31 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:35:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:35:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679731850.png]]
+
+23-10-2024T17:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Tressif2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:35:35 - [MESSAGE][PASSED] - Text 'Tressif2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:35:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Tressif2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:35:36 - [MESSAGE][PASSED] - Text 'Tressif2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Hemlok1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:35:37 - [MESSAGE][PASSED] - Text 'Hemlok1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:35:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'herman@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:35:37 - [MESSAGE][PASSED] - Text 'herman@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:35:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645642' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:35:38 - [MESSAGE][PASSED] - Text '084445645642' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:35:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'hemmrll1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:35:39 - [MESSAGE][PASSED] - Text 'hemmrll1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:35:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'hemmrll2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:35:39 - [MESSAGE][PASSED] - Text 'hemmrll2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:35:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Bekasi' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:35:40 - [MESSAGE][PASSED] - Text 'Bekasi' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:35:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '2244455555' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:35:40 - [MESSAGE][PASSED] - Text '2244455555' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:35:40 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:35:40 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:35:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:35:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:35:42 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:35:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:35:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679742993.png]]
+
+23-10-2024T17:35:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2")): Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:35:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:35:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:35:47 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:35:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:35:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679747628.png]]
+
+23-10-2024T17:35:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:35:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" time="37.484" classname="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:35:49 - [TEST_CASE][PASSED] - Test Cases/TC_003 and TC_005 Case positif fillter and add coupon: Test Cases/TC_003 and TC_005 Case positif fillter and add coupon
+
+23-10-2024T17:35:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:35:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:35:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:35:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:35:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:35:50 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:35:50 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:35:52 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:35:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:35:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:35:54 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:35:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:35:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679754853.png]]
+
+23-10-2024T17:35:56 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover"), findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover"), STOP_ON_FAILURE): Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:35:57 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/button_Filter")): Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:35:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:36:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:36:00 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:36:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:36:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679760851.png]]
+
+23-10-2024T17:36:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:36:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:36:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:36:03 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:36:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:36:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679763959.png]]
+
+23-10-2024T17:36:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:36:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:36:07 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:36:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:36:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:36:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:36:09 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:36:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:36:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679769581.png]]
+
+23-10-2024T17:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:36:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Mother2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:36:13 - [MESSAGE][PASSED] - Text 'Mother2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Rass2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:36:14 - [MESSAGE][PASSED] - Text 'Rass2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:36:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Crassk1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:36:14 - [MESSAGE][PASSED] - Text 'Crassk1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:36:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'crassww@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:36:15 - [MESSAGE][PASSED] - Text 'crassww@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:36:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645643' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:36:16 - [MESSAGE][PASSED] - Text '084445645643' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:36:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'craass11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:36:16 - [MESSAGE][PASSED] - Text 'craass11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:36:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'craass22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:36:17 - [MESSAGE][PASSED] - Text 'craass22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:36:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Bojong' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:36:17 - [MESSAGE][PASSED] - Text 'Bojong' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:36:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '4947777335' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:36:18 - [MESSAGE][PASSED] - Text '4947777335' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:36:18 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:36:18 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+23-10-2024T17:36:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:36:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:36:20 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:36:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:36:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679780414.png]]
+
+23-10-2024T17:36:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2")): Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:36:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:36:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:36:25 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:36:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:36:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679785041.png]]
+
+23-10-2024T17:36:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:36:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_006 Case Negative fail add coupon" time="16.633" classname="Test Cases/TC_006 Case Negative fail add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:36:26 - [TEST_CASE][PASSED] - Test Cases/TC_006 Case Negative fail add coupon: Test Cases/TC_006 Case Negative fail add coupon
+
+23-10-2024T17:36:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:36:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:36:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:36:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:36:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:36:27 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:36:27 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:36:30 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:36:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:36:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:36:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:36:32 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:36:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:36:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679792757.png]]
+
+23-10-2024T17:36:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:36:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:36:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:36:37 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:36:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:36:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679797475.png]]
+
+23-10-2024T17:36:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:36:38 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:36:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:36:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:36:42 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:36:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:36:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679802246.png]]
+
+23-10-2024T17:36:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:36:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_006 Case Negative fail add coupon" time="16.197" classname="Test Cases/TC_006 Case Negative fail add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:36:43 - [TEST_CASE][PASSED] - Test Cases/TC_006 Case Negative fail add coupon: Test Cases/TC_006 Case Negative fail add coupon
+
+23-10-2024T17:36:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:36:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:36:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:36:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:36:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:36:44 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:36:44 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:36:46 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:36:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:36:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:36:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:36:49 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:36:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:36:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679809264.png]]
+
+23-10-2024T17:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:36:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:36:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:36:53 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:36:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:36:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679813685.png]]
+
+23-10-2024T17:36:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:36:55 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:36:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:36:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:36:58 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:36:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:36:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679818388.png]]
+
+23-10-2024T17:36:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:36:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_006 Case Negative fail add coupon" time="16.008" classname="Test Cases/TC_006 Case Negative fail add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:36:59 - [TEST_CASE][PASSED] - Test Cases/TC_006 Case Negative fail add coupon: Test Cases/TC_006 Case Negative fail add coupon
+
+23-10-2024T17:36:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:36:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:36:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:37:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:37:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:37:00 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:37:00 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:37:02 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:37:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:37:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:37:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:37:05 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:37:06 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:37:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679825352.png]]
+
+23-10-2024T17:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:37:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:37:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:37:09 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:37:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:37:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679829819.png]]
+
+23-10-2024T17:37:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:37:11 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:37:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:37:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:37:14 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+23-10-2024T17:37:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+23-10-2024T17:37:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_173245\\TEST TECHNICAL BTN\\20241023_173245\\1729679834487.png]]
+
+23-10-2024T17:37:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:37:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-10-2024T17:32:49 - [TEST_SUITE][PASSED] - TEST TECHNICAL BTN: Test Cases/TC_006 Case Negative fail add coupon]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

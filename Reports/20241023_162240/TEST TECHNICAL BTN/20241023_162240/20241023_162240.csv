@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TEST TECHNICAL BTN,Chrome 130.0.0.0,,,23-10-2024 16:22:45,23-10-2024 16:22:51,5.956s,FAILED
+,,,,,,,
+Test Cases/TC_005 Case positif fillter price,Chrome 130.0.0.0,,,23-10-2024 16:22:45,23-10-2024 16:22:51,5.704s,FAILED
+"openBrowser("""")",Chrome 130.0.0.0,,,23-10-2024 16:22:46,23-10-2024 16:22:48,2.209s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,23-10-2024 16:22:48,23-10-2024 16:22:48,0.197s,PASSED
+"navigateToUrl(""https://practice.automationtesting.in/shop/"")",Chrome 130.0.0.0,,,23-10-2024 16:22:48,23-10-2024 16:22:50,1.937s,PASSED
+"dragAndDropToObject(findTestObject(""Page_Products  Automation Practice Site/div_FilterPrice 470  500""), findTestObject(""Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover""), STOP_ON_FAILURE)",Chrome 130.0.0.0,,,23-10-2024 16:22:50,23-10-2024 16:22:51,0.476s,FAILED

@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST TECHNICAL BTN" time="193.246" tests="9" failures="1" errors="0">
+   <testsuite name="TEST TECHNICAL BTN" tests="9" failures="1" errors="0" time="193.246" skipped="0" timestamp="23-10-2024T17:01:33" hostname="ASUS VIVOBOOK - DESKTOP-MMTM3NU" id="Test Suites/TEST TECHNICAL BTN">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_170128\\TEST TECHNICAL BTN\\20241023_170128"/>
+         <property name="logFiles" value="C:\\Users\\ASUS VIVOBOOK\\Downloads\\Programs\\TEST-TECHNICAL-BTN---QA-AUTOMATION---FELIX-TANGGONO-master\\Reports\\20241023_170128\\TEST TECHNICAL BTN\\20241023_170128\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS VIVOBOOK - DESKTOP-MMTM3NU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.87"/>
+         <property name="sessionId" value="217ed16a26eeb22b4c599e24f6f434f6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" time="26.188" classname="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:01:33 - [TEST_CASE][PASSED] - Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity: Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity
+
+23-10-2024T17:01:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:01:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:01:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:01:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:01:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:01:36 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:01:36 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:01:39 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/a_HTML product type")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:01:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:01:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:01:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:01:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:01:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input__cart(HTML5 Form)"), Quantity): Text '4' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:01:45 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:01:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout2")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:01:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Felisia1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:01:50 - [MESSAGE][PASSED] - Text 'Felisia1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:01:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Gremory1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:01:51 - [MESSAGE][PASSED] - Text 'Gremory1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:01:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Kingdome' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:01:52 - [MESSAGE][PASSED] - Text 'Kingdome' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:01:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'kingrod@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:01:52 - [MESSAGE][PASSED] - Text 'kingrod@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:01:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645641' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:01:53 - [MESSAGE][PASSED] - Text '084445645641' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:01:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'ghostr11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:01:54 - [MESSAGE][PASSED] - Text 'ghostr11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:01:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'ghosttr22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:01:54 - [MESSAGE][PASSED] - Text 'ghosttr22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:01:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Jakarta' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:01:55 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:01:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '111222444' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:01:55 - [MESSAGE][PASSED] - Text '111222444' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:01:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c")): Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' is clicked on
+
+23-10-2024T17:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' is clicked on
+
+23-10-2024T17:01:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:01:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:01:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:01:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" time="28.196" classname="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity.run(TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity:61)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1729677688137.run(TempTestSuite1729677688137.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame&#xa;  (Session info: chrome=130.0.6723.59)&#xa;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'DESKTOP-MMTM3NU', ip: '192.168.1.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 9671a4dae63c6b0bd57f1a42b4b64346&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[23-10-2024T17:02:00 - [TEST_CASE][FAILED] - Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity: Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity.run(TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729677688137.run(TempTestSuite1729677688137.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MMTM3NU', ip: '192.168.1.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9671a4dae63c6b0bd57f1a42b4b64346
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+23-10-2024T17:02:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:02:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:02:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:02:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:02:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:02:01 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:02:01 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:02:04 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:02:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/a_HTML product type")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:02:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:02:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:02:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:02:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input__cart(HTML5 Form)"), Quantity): Text '5' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:02:16 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:02:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:02:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout2")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:02:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Tressif1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:02:21 - [MESSAGE][PASSED] - Text 'Tressif1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:02:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Tressif1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:02:22 - [MESSAGE][PASSED] - Text 'Tressif1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:02:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Hemlok' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:02:23 - [MESSAGE][PASSED] - Text 'Hemlok' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:02:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'herman@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:02:23 - [MESSAGE][PASSED] - Text 'herman@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:02:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645642' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:02:24 - [MESSAGE][PASSED] - Text '084445645642' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:02:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'hemmrll1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:02:24 - [MESSAGE][PASSED] - Text 'hemmrll1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:02:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'hemmrll2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:02:25 - [MESSAGE][PASSED] - Text 'hemmrll2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:02:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Bekasi' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:02:26 - [MESSAGE][PASSED] - Text 'Bekasi' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:02:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '224445555' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:02:26 - [MESSAGE][PASSED] - Text '224445555' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:02:26 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c")): Unable to click on object 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity.run(TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729677688137.run(TempTestSuite1729677688137.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MMTM3NU', ip: '192.168.1.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9671a4dae63c6b0bd57f1a42b4b64346
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1729674367948.run(Script1729674367948.groovy:61)
+	... 15 more
+)
+
+23-10-2024T17:02:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity.run(TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729677688137.run(TempTestSuite1729677688137.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MMTM3NU', ip: '192.168.1.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9671a4dae63c6b0bd57f1a42b4b64346
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1729674367948.run(Script1729674367948.groovy:61)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[23-10-2024T17:02:00 - [TEST_CASE][FAILED] - Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity: Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity.run(TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729677688137.run(TempTestSuite1729677688137.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MMTM3NU', ip: '192.168.1.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9671a4dae63c6b0bd57f1a42b4b64346
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" time="28.937" classname="Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:02:28 - [TEST_CASE][PASSED] - Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity: Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity
+
+23-10-2024T17:02:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:02:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+23-10-2024T17:02:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:02:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:02:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:02:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:02:30 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:02:30 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:02:32 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:02:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/a_HTML product type")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_HTML product type' is clicked on
+
+23-10-2024T17:02:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML5 Form)' is clicked on
+
+23-10-2024T17:02:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (HTML 5 Web Development)' is clicked on
+
+23-10-2024T17:02:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)")): Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_HTML  Automation Practice Site/a_Add to basket (Thinking in HTML)' is clicked on
+
+23-10-2024T17:02:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:02:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input__cart(HTML5 Form)"), Quantity): Text '3' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:02:43 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input__cart(HTML5 Form)'
+
+23-10-2024T17:02:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_update_cart' is clicked on
+
+23-10-2024T17:02:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout2")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout2' is clicked on
+
+23-10-2024T17:02:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Mother1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:02:48 - [MESSAGE][PASSED] - Text 'Mother1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:02:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Rass1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:02:49 - [MESSAGE][PASSED] - Text 'Rass1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:02:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Crassk1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:02:49 - [MESSAGE][PASSED] - Text 'Crassk1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:02:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'crassww@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:02:50 - [MESSAGE][PASSED] - Text 'crassww@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:02:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645643' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:02:51 - [MESSAGE][PASSED] - Text '084445645643' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:02:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'craass11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:02:51 - [MESSAGE][PASSED] - Text 'craass11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:02:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'craass22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:02:52 - [MESSAGE][PASSED] - Text 'craass22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:02:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Bojong' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:02:53 - [MESSAGE][PASSED] - Text 'Bojong' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:02:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '494777733' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:02:53 - [MESSAGE][PASSED] - Text '494777733' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:02:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c")): Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' is clicked on
+
+23-10-2024T17:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c' is clicked on
+
+23-10-2024T17:02:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:02:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:02:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:02:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" time="31.071" classname="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:02:57 - [TEST_CASE][PASSED] - Test Cases/TC_003 and TC_005 Case positif fillter and add coupon: Test Cases/TC_003 and TC_005 Case positif fillter and add coupon
+
+23-10-2024T17:02:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:02:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:02:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:02:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:02:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:02:58 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:02:58 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:03:01 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:03:01 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover"), findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover"), STOP_ON_FAILURE): Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:03:03 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:03:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/button_Filter")): Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:03:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:03:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:03:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:03:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:03:09 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:03:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:03:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Felisia1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:03:13 - [MESSAGE][PASSED] - Text 'Felisia1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:03:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Gremory1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:03:14 - [MESSAGE][PASSED] - Text 'Gremory1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:03:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Kingdome' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:03:15 - [MESSAGE][PASSED] - Text 'Kingdome' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:03:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'kingrod@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:03:15 - [MESSAGE][PASSED] - Text 'kingrod@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:03:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645641' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:03:16 - [MESSAGE][PASSED] - Text '084445645641' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:03:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'ghostr11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:03:16 - [MESSAGE][PASSED] - Text 'ghostr11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:03:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'ghosttr22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:03:17 - [MESSAGE][PASSED] - Text 'ghosttr22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:03:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Jakarta' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:03:18 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:03:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '111222444' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:03:18 - [MESSAGE][PASSED] - Text '111222444' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:03:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:03:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2")): Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:03:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:03:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:03:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:03:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" time="25.11" classname="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:03:28 - [TEST_CASE][PASSED] - Test Cases/TC_003 and TC_005 Case positif fillter and add coupon: Test Cases/TC_003 and TC_005 Case positif fillter and add coupon
+
+23-10-2024T17:03:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:03:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:03:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:03:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:03:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:03:29 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:03:29 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:03:32 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:03:32 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover"), findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover"), STOP_ON_FAILURE): Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:03:34 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/button_Filter")): Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:03:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:03:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:03:40 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:03:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Tressif1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:03:43 - [MESSAGE][PASSED] - Text 'Tressif1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:03:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Tressif1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:03:44 - [MESSAGE][PASSED] - Text 'Tressif1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Hemlok' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:03:45 - [MESSAGE][PASSED] - Text 'Hemlok' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:03:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'herman@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:03:45 - [MESSAGE][PASSED] - Text 'herman@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:03:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645642' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:03:46 - [MESSAGE][PASSED] - Text '084445645642' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:03:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'hemmrll1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:03:46 - [MESSAGE][PASSED] - Text 'hemmrll1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:03:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'hemmrll2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:03:47 - [MESSAGE][PASSED] - Text 'hemmrll2' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:03:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Bekasi' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:03:48 - [MESSAGE][PASSED] - Text 'Bekasi' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:03:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '224445555' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:03:48 - [MESSAGE][PASSED] - Text '224445555' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:03:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:03:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:03:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2")): Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:03:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:03:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:03:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:03:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" time="23.396" classname="Test Cases/TC_003 and TC_005 Case positif fillter and add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:03:53 - [TEST_CASE][PASSED] - Test Cases/TC_003 and TC_005 Case positif fillter and add coupon: Test Cases/TC_003 and TC_005 Case positif fillter and add coupon
+
+23-10-2024T17:03:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:03:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:03:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:03:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:03:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:03:54 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:03:54 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:03:56 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:03:56 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover"), findTestObject("Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover"), STOP_ON_FAILURE): Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:03:58 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover' to object with id 'TestObject - 'Object Repository/Page_Products  Automation Practice Site/span_Filter by price_ui-slider-handle ui-corner-all ui-state-default ui-state-hover'' successfully
+
+23-10-2024T17:03:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Products  Automation Practice Site/button_Filter")): Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/button_Filter' is clicked on
+
+23-10-2024T17:03:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket' is clicked on
+
+23-10-2024T17:04:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:04:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code' is clicked on
+
+23-10-2024T17:04:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:04:03 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:04:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:04:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Basket  Automation Practice Site/a_Proceed to Checkout")): Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/a_Proceed to Checkout' is clicked on
+
+23-10-2024T17:04:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_first_name"), First_name): Text 'Mother1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:04:07 - [MESSAGE][PASSED] - Text 'Mother1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_first_name'
+
+23-10-2024T17:04:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_last_name"), Last_name): Text 'Rass1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:04:07 - [MESSAGE][PASSED] - Text 'Rass1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_last_name'
+
+23-10-2024T17:04:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input_Company Name_billing_company"), Company_name): Text 'Crassk1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:04:08 - [MESSAGE][PASSED] - Text 'Crassk1' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input_Company Name_billing_company'
+
+23-10-2024T17:04:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_email"), Email): Text 'crassww@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:04:09 - [MESSAGE][PASSED] - Text 'crassww@aaa.com' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_email'
+
+23-10-2024T17:04:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_phone"), Phone): Text '084445645643' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:04:09 - [MESSAGE][PASSED] - Text '084445645643' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_phone'
+
+23-10-2024T17:04:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_1"), Address1): Text 'craass11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:04:10 - [MESSAGE][PASSED] - Text 'craass11' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_1'
+
+23-10-2024T17:04:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_address_2"), Address2): Text 'craass22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:04:10 - [MESSAGE][PASSED] - Text 'craass22' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_address_2'
+
+23-10-2024T17:04:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_city"), City): Text 'Bojong' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:04:11 - [MESSAGE][PASSED] - Text 'Bojong' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_city'
+
+23-10-2024T17:04:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout  Automation Practice Site/input__billing_postcode"), Postcode): Text '494777733' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:04:12 - [MESSAGE][PASSED] - Text '494777733' is set on object 'Object Repository/Page_Checkout  Automation Practice Site/input__billing_postcode'
+
+23-10-2024T17:04:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:04:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:04:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2")): Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_checkout_place_order2' is clicked on
+
+23-10-2024T17:04:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+23-10-2024T17:04:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+23-10-2024T17:04:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:04:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_006 Case Negative fail add coupon" time="9.84" classname="Test Cases/TC_006 Case Negative fail add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:04:16 - [TEST_CASE][PASSED] - Test Cases/TC_006 Case Negative fail add coupon: Test Cases/TC_006 Case Negative fail add coupon
+
+23-10-2024T17:04:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:04:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:04:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:04:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:04:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:04:17 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:04:17 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:04:20 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:04:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:04:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:04:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:04:23 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:04:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:04:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:04:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:04:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:04:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_006 Case Negative fail add coupon" time="9.878" classname="Test Cases/TC_006 Case Negative fail add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:04:26 - [TEST_CASE][PASSED] - Test Cases/TC_006 Case Negative fail add coupon: Test Cases/TC_006 Case Negative fail add coupon
+
+23-10-2024T17:04:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:04:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:04:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:04:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:04:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:04:27 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:04:27 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:04:29 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:04:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:04:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:04:33 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:04:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:04:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:04:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:04:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:04:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_006 Case Negative fail add coupon" time="9.726" classname="Test Cases/TC_006 Case Negative fail add coupon" status="PASSED">
+         <system-out><![CDATA[23-10-2024T17:04:36 - [TEST_CASE][PASSED] - Test Cases/TC_006 Case Negative fail add coupon: Test Cases/TC_006 Case Negative fail add coupon
+
+23-10-2024T17:04:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-10-2024T17:04:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-10-2024T17:04:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-10-2024T17:04:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-10-2024T17:04:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-10-2024T17:04:37 - [MESSAGE][PASSED] - Current window maximized
+
+23-10-2024T17:04:37 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/shop/"): Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:04:39 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/shop/' successfully
+
+23-10-2024T17:04:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)")): Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/a_Add to basket (Functional Programming in JS)' is clicked on
+
+23-10-2024T17:04:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0")): Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Products  Automation Practice Site/i_Demo Site_wpmenucart-icon-shopping-cart-0' is clicked on
+
+23-10-2024T17:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Basket  Automation Practice Site/input_Coupon_coupon_code"), Coupon): Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:04:42 - [MESSAGE][PASSED] - Text 'krishnasakinala' is set on object 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_coupon_code'
+
+23-10-2024T17:04:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon")): Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Basket  Automation Practice Site/input_Coupon_apply_coupon' is clicked on
+
+23-10-2024T17:04:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-10-2024T17:04:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-10-2024T17:04:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-10-2024T17:04:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-10-2024T17:01:33 - [TEST_SUITE][FAILED] - TEST TECHNICAL BTN: Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity.run(TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729677688137.run(TempTestSuite1729677688137.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MMTM3NU', ip: '192.168.1.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9671a4dae63c6b0bd57f1a42b4b64346
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[23-10-2024T17:01:33 - [TEST_SUITE][FAILED] - TEST TECHNICAL BTN: Test Cases/TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Checkout  Automation Practice Site/input_PayPal Express Checkout_woocommerce_c_e63d9c'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity.run(TC_001,TC_002, and TC__004 Case positif add more choose type product and update Quantity:61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1729677688137.run(TempTestSuite1729677688137.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MMTM3NU', ip: '192.168.1.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\ASUSVI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9671a4dae63c6b0bd57f1a42b4b64346
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
